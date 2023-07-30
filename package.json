@@ -1,0 +1,31 @@
+{
+  "name": "links-dashing",
+  "version": "1.0.0",
+  "description": "It helps you manage your favorite browser bookmarks",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cccoding365/hecongcong.com.git"
+  },
+  "keywords": ["links"],
+  "author": "小葱伴逗虎",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cccoding365/hecongcong.com/issues"
+  },
+  "homepage": "https://github.com/cccoding365/hecongcong.com#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "uglify-js": "^3.17.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://image-1258911198.cos.ap-guangzhou.myqcloud.com/favicon.svg" type="image/x-icon">
+        <!-- <link rel="stylesheet" href="./css/index.css"> -->
+        <!-- <link rel="stylesheet" href="./css/breakpoints.css"> -->
+        <title>Links Dashing 🚀</title>
+    </head>
+
+    <body>
+        <header id="pageHeader">
+            <h1 id="title">链达</h1>
+            <div id="introduce"></div>
+        </header>
+
+        <main id="pageMain">
+            <div id="inputContainer" class="input-container">
+                <div class="input-item">
+                    <label for="jsonFileInput">导入JSON文件</label>
+                    <input id="jsonFileInput" type="file" accept=".json" />
+                </div>
+                <div class="input-item">
+                    <label for="manualInput">手动添加</label>
+                    <button id="manualInput" type="file" />
+                </div>
+                <div class="input-item">
+                    <label for="htmlFileInput">导入HTML文件</label>
+                    <input id="htmlFileInput" type="file" accept=".html" />
+                </div>
+            </div>
+
+            <aside id="controlsContainer">
+                <button id="linksCount" class="button-item"></button>
+                <button id="addButton" class="button-item">添加</button>
+                <button id="clearButton" class="button-item">清空</button>
+                <button id="resetButton" class="button-item">重置</button>
+            </aside>
+
+            <div id="inputModal">
+                <div id="modalCover"></div>
+            </div>
+
+            <div id="container"></div>
+        </main>
+
+        <footer id="pageFooter"></footer>
+    </body>
+    <!-- <script src="./main.js"></script> -->
+
+</html>
