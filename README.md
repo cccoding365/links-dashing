@@ -82,4 +82,7 @@ Now release the mouse to delete the bookmark, If you don't want to delete it, ju
 
 Maybe my introduction is not enough to entice you to use it, but I am still actively updating it.I hope one day you will love this tool.If you have any comments or suggestions during use, please let me know through [issues](https://github.com/cccoding365/links-dashing/issues).
 
-If you are interested in this project, you can give me a star. Thank you very much!
+If you are interested in this project, you can give me a star or buy me a cup of coffee. Thank you very much!
+
+![](./image/AliPay.jpg) | ![](./image/WeChatPay.jpg)
+-- | --
